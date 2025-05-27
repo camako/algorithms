@@ -10,4 +10,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 set (executable_name go)
 
-add_executable (${executable_name} main.cpp bfs.cpp graph.cpp)
+add_executable (${executable_name} main.cpp bfs.cpp dfs.cpp graph.cpp)

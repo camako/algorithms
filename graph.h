@@ -1,3 +1,6 @@
+#ifndef _GRAPH_H_
+#define _GRAPH_H_
+
 #include <list>
 #include <vector>
 
@@ -16,3 +19,5 @@ private:
     size_t                       m_verticesCount;
     std::vector<std::list<int>>* m_adjacencyList;
 };
+
+#endif  // _GRAPH_H_
